@@ -1,0 +1,24 @@
+Node
+    node (enter node shell)
+    global (check global values)
+    .exit (exit the shell)
+    node example.js (run a file)
+    node example.js arg1 arg2 (run a file with arguments)
+    node -v (check node's version)
+
+npm
+    npm init (create a project)
+    npm init -y (create a project without questions)
+    npm run dev (run your script)
+    npm i ... (install something)
+    npm i --save-dev @... (install dev dependencies)
+    NODE_ENV=production npm i (adds all dependencies)
+
+nvm
+    nvm ls (check installed versions)
+    nvm install ## (install a specific version)
+    nvm use ## (use an installed version)
+
+Used libraries/dependencies 
+    colors (colorizes text in the output)
+    @types/node (adds autocomplete)
