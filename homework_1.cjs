@@ -2,10 +2,6 @@ const prnt = require('colors');
 
 const [from, to] = process.argv.slice(2).map(item => parseInt(item));
 
-// const arguments = process.argv.slice(2);
-// const from = parseInt(arguments[0]);
-// const to = parseInt(arguments[1]);
-
 
 if (isNaN(from) || isNaN(to)) {
     console.log('Invalid input!');
