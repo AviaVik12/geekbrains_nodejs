@@ -12,7 +12,8 @@
   "dependencies": {
     "colors": "^1.4.0",
     "events": "^3.3.0",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "stream": "0.0.2"
   },
   "devDependencies": {
     "@types/node": "^18.11.9"
